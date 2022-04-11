@@ -1,0 +1,109 @@
+/* main */
+body {
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: center 5%;
+    background-image: url('images/bg.jpg');
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* topbar */
+.topnav {
+    background-color: rgba(255, 255, 255, 0.247);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #3c517c;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    background-color: #4a59aaad;
+    color: white;
+}
+
+.topnav a:hover {
+    color: #c7ccf5;
+    background-color: #434a7e;
+}
+
+
+/* body stuff */
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+.center {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+}
+
+.center2 {
+    position: absolute;
+    left: 50%;
+    top: 75px;
+    transform: translate(-50% , 0%)
+}
+
+.btn, .altbtn {
+    background-color: #4a59aaad;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 16px;
+}
+
+.btn:hover {
+    color: #c7ccf5;
+    background-color: #434a7e;
+}
+
+.altbtn {
+    padding: 10px 160px;
+    color: #fff;
+    background-color: #3f0003a9;
+}
+
+.altbtn:hover {
+    background-color: #630005ce;
+}
+
+img {
+    background-color: #3f0003a9;
+    margin: 10px;
+}
+
+.white {
+    text-shadow: 3px 3px 4px black;
+    color: white;
+}
+
+.right {
+    float: right;
+    background: none;
+}
+
+.tright {
+    text-align: left;
+}
+
+hr {
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
